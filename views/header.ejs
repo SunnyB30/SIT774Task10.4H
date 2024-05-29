@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CuteSpecs</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/7ed3c1c3656c2d34c10cd2affc66c091?family=Westgate" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="images\style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title> <%= title %> </title>
+
+</head>
+<!-- sticky social media icon bar -->
+<div class="icon-bar">
+    <a target="_blank" href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a target="_blank" href="https://twitter.com/?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a target="_blank" href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a target="_blank" href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+<!-- end social media icon bar -->
+
+<!-- navbar -->
+<div class="container-fluid fixed-top">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex align-items-end ">
+            <a class="navbar-brand" href="/"><img src="images\title2.png" alt="cutespecslogo" width="140"
+                    height="auto"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Cases
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/product">Soft cases</a></li>
+                            <li><a class="dropdown-item" href="/product">Hard cases</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/product">Chains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/product">Cords</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-nowrap" href="/product">Cloth and Lens cleaner</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropDown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Magnifers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropDown">
+                            <li><a class="dropdown-item" href="/product">Reading glasses</a></li>
+                            <li><a class="dropdown-item" href="/product">Hand-held magnifiers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item d-flex">
+                        <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvassearch" role="button"
+                            aria-controls="offcanvasExample">
+                            <img src="images\search.png" alt="searchbutton" width="30" height="auto">
+                        </a>
+                        <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvascart" role="button"
+                            aria-controls="offcanvasExample">
+                            <img src="images\cart.png" alt="shoppingcart" width="30" height="auto">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- current promotions carousel -->
+    <div id="promotionscarousel" class="container text-center fixed d-flex justify-content-center align-items-center">
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    Free shipping on orders $99+
+                </div>
+                <div class="carousel-item">
+                    Save 20% when you <a id="promotionsignuplink" href="/signup">Sign Up</a></button>
+                </div>
+                <div class="carousel-item">
+                    Summer Sale: See our sale items <a href="/product">here</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end current promotions carousel -->
+<!-- end navbar -->
+
+<!-- off canvas shopping cart-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvascart" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your Shopping Bag</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="d-flex flex-column" id="shoppingcart"></div>
+        <div id="cartemptymessage">Shopping Cart is Empty!</div>
+        <div id="shoppingcarttotal"></div>
+    </div>
+</div>
+<!-- end off canvas shopping cart-->
+<!-- off canvas search -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvassearch" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Search</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="search-bar">
+            <form class="d-flex" role="search" onsubmit="executeSearch()">
+                <input id="searchbar" class="form-control me-2" type="search" autocomplete="off" id="Search"
+                    aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" autocomplete="off"><img src="images\search.png"
+                        alt="search" width="30" height="auto"></button>
+
+            </form>
+        </div>
+
+        <div class="container">
+            <ul id='search-display' class="search-display"></ul>
+        </div>
+    </div>
+</div>
+<!-- end off canvas search -->
+<!-- TOAST -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <img width="40" height="auto" src="images\toast.png" class="rounded me-2 img-fluid" alt="...">
+            <strong class="me-auto">CuteSpecs.</strong>
+            <small>Just now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div id="toastbody" class="toast-body">
+        </div>
+    </div>
+</div>
+<!-- TOAST -->
+<body>
+
+
+
+    

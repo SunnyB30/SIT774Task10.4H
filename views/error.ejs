@@ -1,0 +1,27 @@
+<%- include('header'); -%>
+
+<!-- header -->
+<header>
+    <div class="headercontainer rounded container d-flex flex-column justify-content-center">
+      <img class="img-fluid align-self-center" src="images\title.png" alt="titlelogo" width="500" height="auto"></a>
+      <div class="headerdescription align-self-center text-center">Melbourne's first and cuteset eyewear accessory
+        fashion brand.</div>
+      <div class="est align-self-center pt-2">OOPs, Hit an error....</div>
+    </div>
+    </div>
+  </header>
+  <!-- end header -->
+
+<main>
+    <div class="container">
+        <h1>
+            <%= message %>
+        </h1>
+        <h2>
+            <%= error.status %>
+        </h2>
+        <pre><%= error.stack %></pre>
+    </div>
+</main>
+
+<%- include('footer'); -%>

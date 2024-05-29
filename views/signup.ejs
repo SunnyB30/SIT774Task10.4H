@@ -1,0 +1,115 @@
+<%- include('header'); -%>
+<header>
+    <div class="container">
+      <h3>Sign Up</h3>
+      <hr>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <form class="row g-3 pt-4" action="/signup" method = "post" onsubmit="return validation(event)" id="formsignup">
+        <div><strong>Login details to be used</strong></div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" name="inputEmail">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" name="inputPassword">
+        </div>
+        <div class="col-md-6">
+          <div id="emailmsg"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="passwordmsg"></div>
+        </div>
+
+        <div><strong>Contact details</strong></div>
+
+        <div class="col-md-6">
+          <label for="inputFirstName" class="form-label">Firstname</label>
+          <input type="text" class="form-control" id="inputFirstName" name="inputFirstName">
+        </div>
+        <div class="col-md-6">
+          <label for="inputSurname" class="form-label">Surname</label>
+          <input type="text" class="form-control" id="inputSurname" name="inputSurname">
+        </div>
+        <div class="col-md-6">
+          <div id="firstnamemsg"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="surnamemsg"></div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="dob" class="form-label">Birth Date</label>
+          <input type="date" class="form-control" id="dob" name="dob">
+        </div>
+        <div class="col-md-6">
+          <label for="mobile" class="form-label">Mobile</label>
+          <input type="tel" class="form-control" id="mobile" name="mobile">
+        </div>
+        <div class="col-md-6">
+          <div id="dobmsg"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="mobilemsg"></div>
+        </div>
+
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="inputAddress">
+        </div>
+        <div class="col-md-12">
+          <div id="address1msg"></div>
+        </div>
+
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="inputAddress2">
+        </div>
+        <div class="col-md-12">
+          <div id="address2msg"></div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" name="inputCity">
+        </div>
+        <div class="col-md-3">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select" name="inputState">
+            <option selected="true" disabled="disabled">Choose...</option>
+            <option>VIC</option>
+            <option>NSW</option>
+            <option>SA</option>
+            <option>QLD</option>
+            <option>NT</option>
+            <option>TAS</option>
+            <option>WA</option>
+            <option>ACT</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="inputpostcode" class="form-label">Postcode</label>
+          <input type="text" class="form-control" id="inputpostcode" name="inputpostcode">
+        </div>
+        <div class="col-md-6">
+          <div id="citymsg"></div>
+        </div>
+        <div class="col-md-3">
+          <div id="statemsg"></div>
+        </div>
+        <div class="col-md-3">
+          <div id="postcodemsg"></div>
+        </div>
+        <div class="col-12">
+          <input type="submit" id="submit" value="Submit" class="btn btn-primary"></input>
+          <input class="btn btn-primary" type="reset" id="resett" value="Reset" onclick="Reset()">
+        </div>
+      </form>
+    </div>
+  </main>
+
+
+<%- include('footer'); -%>

@@ -1,0 +1,348 @@
+@import url(https://db.onlinewebfonts.com/c/7ed3c1c3656c2d34c10cd2affc66c091?family=Westgate);
+
+@font-face {
+  font-family: "Westgate";
+  src: url("https://db.onlinewebfonts.com/t/7ed3c1c3656c2d34c10cd2affc66c091.eot");
+  src: url("https://db.onlinewebfonts.com/t/7ed3c1c3656c2d34c10cd2affc66c091.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/7ed3c1c3656c2d34c10cd2affc66c091.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/7ed3c1c3656c2d34c10cd2affc66c091.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/7ed3c1c3656c2d34c10cd2affc66c091.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/7ed3c1c3656c2d34c10cd2affc66c091.svg#Westgate")format("svg");
+}
+
+
+html  {
+  font-size: 17px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; 
+  font-style: normal;
+}
+
+
+body {
+  padding-top: 125px;
+}
+
+/* header styling */
+#promotionscarousel {
+  background-color: #141414;
+  color:white;
+  height: 30px;
+}
+.est {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.headercontainer {
+  padding-bottom: 8px;
+  background-color: #C7E3E1;
+}
+
+.headerdescription {
+  font-family: "Westgate";
+  width: 80%;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#established {
+  font-size: 23px;
+}
+
+/* header styling end */
+
+/* icon bar */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* navbar styling */
+.nav-link {
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: white;
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; 
+  font-style: normal;
+  z-index: 2;
+}
+
+#promotionsignuplink {
+  text-decoration: none;
+}
+.bestsellercartbutton {
+  border: none;
+}
+/* navbar styling end */
+
+/* main carousel styling */
+.carouselmainimg {
+  border-radius: 15px;
+}
+
+.carouselmaindescription {
+  color: black;
+  font-size: 20px;
+  font-weight: 400; 
+  padding-top: 5px;
+}
+
+.btncarouselmain {
+  height: auto;
+  width: 35%;
+}
+
+/* increment buttons */
+icon-shape {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.icon-sm {
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+/* shopping cart */
+
+.shoppingitem {
+  list-style-type: none;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.quantityminus,
+.quantityplus {
+  width: 22px;
+  height: 23px;
+  margin: 0;
+  background: #535461;
+  text-decoration: none;
+  text-align: center;
+  line-height: 23px;
+}
+.quantityminus:hover,
+.quantityplus:hover {
+  background: #575b71;
+  color: #fff;
+} 
+.quantityminus {
+  border-radius: 3px 0 0 3px;
+}
+.quantityplus {
+  border-radius: 0 3px 3px 0;
+}
+.quantityinput {
+  width: 32px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #dee0ee;
+  border-bottom: 2px solid #dee0ee;
+  border-left: 1px solid #dee0ee;
+  border-right: 2px solid #dee0ee;
+  background: #fff;
+  color: #8184a1;
+}
+.quantityminus:link,
+.quantityplus:link {
+  color: #8184a1;
+} 
+.quantityminus:visited,
+.quantityplus:visited {
+  color: #fff;
+}
+
+footer { 
+  background-color: rgb(26, 25, 25);
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* search bar */
+
+.search-bar {
+  margin-bottom: 1rem; 
+}
+
+.search-display {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.result-item {
+  padding: 0.5rem 1rem; 
+  cursor: pointer; 
+}
+
+.result-item:hover {
+  color: #5D3FD3;
+}
+
+.no-results-found {
+  text-align: center; 
+  padding: 1rem; 
+}
+
+.result-item {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.result-item:hover {
+  color: #0056b3; 
+}
+
+/* video banner */
+
+.video-mask{
+  line-height: 0;
+  display:inline-block;
+  border-radius: 50%; 
+  overflow: hidden; 
+}
+
+.banner-bg {
+  border-radius: 30px; 
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.description {
+  position: relative;
+  width: 200px;
+
+}
+
+.phrase {
+    font-size: 80px;
+    font-family: "Westgate", sans-serif;
+    font-weight: 600;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url(https://media.giphy.com/media/5IBzZb570Jbuo/giphy.gif?cid=ecf05e476wts7m6gyuhwheny002dty3decstsq7jhmt4n83l&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    position: relative;
+}
+
+.phrase1 {
+  margin-bottom: -15px;
+}
+
+
+
+#btnshopnow {
+  
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 1em;
+  box-sizing: border-box;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 16px;
+  height: var(--btnH);
+  justify-content: center;
+  position: relative;
+  background-color: #4df0e2;
+  color: purple; 
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.videorow2 {
+  padding-right: 100px;
+}
+
+.videorow1 .videorow2 {
+  padding-left: 20px;
+}
+
+.toptext {
+  color: rgb(163, 163, 163);
+  font-family: "Mulish", sans-serif;
+}
